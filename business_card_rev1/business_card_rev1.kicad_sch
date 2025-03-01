@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "business_card_V1"
+			(project "business_card_rev1"
 				(path "/2daf7f84-4957-48e3-ad2b-6b7c48e029dd"
 					(page "3")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "business_card_V1"
+			(project "business_card_rev1"
 				(path "/2daf7f84-4957-48e3-ad2b-6b7c48e029dd"
 					(page "2")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "business_card_V1"
+			(project "business_card_rev1"
 				(path "/2daf7f84-4957-48e3-ad2b-6b7c48e029dd"
 					(page "4")
 				)
