@@ -1,0 +1,43 @@
+### Footprint positions - created on 2025-03-29T13:18:05-0700 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                               PosX       PosY       Rot  Side
+B1        3000                 3000_KEY                          146.6260   -77.7888  180.0000  top
+C1        4.3pF                C_0402_1005Metric                 105.0000   -68.9700   90.0000  top
+C2        4.3pF                C_0402_1005Metric                 105.0000   -70.8800  -90.0000  top
+C3        100n                 C_0402_1005Metric                 100.0000   -72.5000  -90.0000  top
+C6        100n                 C_0402_1005Metric                 103.9000   -73.3000  -90.0000  top
+C8        1u                   C_0402_1005Metric                 115.5790   -71.9450  -90.0000  top
+C9        100n                 C_0402_1005Metric                 116.9390   -71.9350  -90.0000  top
+C11       1u                   C_0402_1005Metric                 114.2690   -71.9450  -90.0000  top
+C12       100n                 C_0402_1005Metric                 105.0000   -72.8500  -90.0000  top
+C13       100n                 C_0402_1005Metric                 118.0000   -73.5000  180.0000  top
+D1        Green_LED            LED_0805_2012Metric               161.2000   -45.5000   90.0000  top
+D2        LED                  R_0603_1608Metric                 127.5343   -87.3250  -90.0000  top
+D3        LED                  R_0603_1608Metric                 125.0171   -87.3250  -90.0000  top
+D4        LED                  R_0603_1608Metric                 122.5000   -87.3250  -90.0000  top
+D5        LED                  R_0603_1608Metric                 119.9829   -87.3250  -90.0000  top
+D6        LED                  R_0603_1608Metric                 117.4657   -87.3250  -90.0000  top
+D7        LED                  R_0603_1608Metric                 114.9486   -87.3250  -90.0000  top
+D8        LED                  R_0603_1608Metric                 112.4314   -87.3250  -90.0000  top
+D9        LED                  R_0603_1608Metric                 109.9143   -87.3250  -90.0000  top
+FB1       FerriteBead_Small    R_0603_1608Metric                 101.5000   -73.8500   90.0000  top
+J2        Conn_01x03_Pin       PinHeader_1x03_P1.00mm_Vertical    91.0000   -77.0000    0.0000  top
+J3        Conn_01x05_Pin       PinHeader_1x05_P1.00mm_Vertical    91.0000   -70.5000    0.0000  top
+R1        10k                  R_0603_1608Metric                 107.4090   -65.3250    0.0000  top
+R3        75R                  R_0603_1608Metric                 168.5000   -80.3250   90.0000  top
+R4        250                  R_0603_1608Metric                 109.9143   -83.8250   90.0000  top
+R5        10k                  R_0603_1608Metric                  98.5000   -76.0000    0.0000  top
+R9        250                  R_0603_1608Metric                 112.4314   -83.8250   90.0000  top
+R10       250                  R_0603_1608Metric                 114.9486   -83.8250   90.0000  top
+R11       250                  R_0603_1608Metric                 117.4657   -83.8250   90.0000  top
+R12       250                  R_0603_1608Metric                 119.9829   -83.8250   90.0000  top
+R13       250                  R_0603_1608Metric                 122.5000   -83.8250   90.0000  top
+R14       250                  R_0603_1608Metric                 125.0171   -83.8250   90.0000  top
+R15       250                  R_0603_1608Metric                 127.5343   -83.8250   90.0000  top
+U1        STM32L031F6P6        TSSOP20                           109.5790   -71.8750    0.0000  top
+U3        PTS645SM43SMTR92LFS  SWITCH_43SMTR92LFS                 92.8500   -87.3750  -90.0000  top
+U4        PCM12SMTR            PCM12SMTR_CNK                     172.0000   -85.5000  180.0000  top
+X1        MU00525-32.768K      XTAL_MU00525_NDK                  102.6500   -69.9500   90.0000  top
+## End

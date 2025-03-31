@@ -516,6 +516,22 @@
 		(color 0 0 0 0)
 		(uuid "d42c0d37-d2d8-43d2-906a-66dfa4dfc772")
 	)
+	(no_connect
+		(at -298.45 133.35)
+		(uuid "26c85e24-e184-417e-93ab-15dd2533d743")
+	)
+	(no_connect
+		(at -19.05 250.19)
+		(uuid "60e2dea3-66da-41b9-acce-470320f1c1dd")
+	)
+	(no_connect
+		(at -223.52 170.18)
+		(uuid "8710eb56-dfd5-42d5-b80e-ed08016040d7")
+	)
+	(no_connect
+		(at -326.39 101.6)
+		(uuid "c62b827d-a476-41f8-a8b6-2d6abf852089")
+	)
 	(wire
 		(pts
 			(xy 106.68 58.42) (xy 114.3 58.42)
@@ -728,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 137.16) (xy 101.6 137.16)
+			(xy 93.98 137.16) (xy 101.6 137.16)
 		)
 		(stroke
 			(width 0)
@@ -758,7 +774,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 137.16) (xy 85.09 137.16)
+			(xy 76.2 137.16) (xy 86.36 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1210,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 81.28 90)
 			(effects
 				(font
@@ -1339,7 +1355,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 68.58 90)
 			(effects
 				(font
@@ -1407,7 +1423,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 133.35 90)
 			(effects
 				(font
@@ -1475,7 +1491,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 120.65 90)
 			(effects
 				(font
@@ -1774,7 +1790,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 41.91 90)
 			(effects
 				(font
@@ -1919,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 93.98 90)
 			(effects
 				(font
@@ -1987,7 +2003,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 54.61 90)
 			(effects
 				(font
@@ -2105,7 +2121,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 88.9 137.16 180)
+		(at 90.17 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2114,7 +2130,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc7d1cd2-2c47-444c-aaa7-522f4e5558ef")
 		(property "Reference" "D2"
-			(at 90.4875 129.54 0)
+			(at 91.7575 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2138,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 90.4875 132.08 0)
+			(at 91.7575 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2146,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 88.9 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2164,7 @@
 			)
 		)
 		(property "Description" "LTST-C193KSKT-5A"
-			(at 88.9 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2173,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 88.9 137.16 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2214,7 @@
 				)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "250"
 			(at 104.14 106.68 90)
 			(effects
 				(font

@@ -1,0 +1,17 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R10,R11,R4,R9,R13,R15,R14,R12";"R_0603_1608Metric";8;"250";;;
+2;"J3";"PinHeader_1x05_P1.00mm_Vertical";1;"Conn_01x05_Pin";;;
+3;"R1,R5";"R_0603_1608Metric";2;"10k";;;
+4;"D7,D3,D9,D8,D2,D4,D6,D5";"R_0603_1608Metric";8;"LED";;;
+5;"C8,C11";"C_0402_1005Metric";2;"1u";;;
+6;"U1";"TSSOP20";1;"STM32L031F6P6";;;
+7;"R3";"R_0603_1608Metric";1;"75R";;;
+8;"U3";"SWITCH_43SMTR92LFS";1;"PTS645SM43SMTR92LFS";;;
+9;"U4";"PCM12SMTR_CNK";1;"PCM12SMTR";;;
+10;"FB1";"R_0603_1608Metric";1;"FerriteBead_Small";;;
+11;"C6,C12,C3,C13,C9";"C_0402_1005Metric";5;"100n";;;
+12;"B1";"3000_KEY";1;"3000";;;
+13;"C1,C2";"C_0402_1005Metric";2;"4.3pF";;;
+14;"X1";"XTAL_MU00525_NDK";1;"MU00525-32.768K";;;
+15;"D1";"LED_0805_2012Metric";1;"Green LED";;;
+16;"J2";"PinHeader_1x03_P1.00mm_Vertical";1;"Conn_01x03_Pin";;;
