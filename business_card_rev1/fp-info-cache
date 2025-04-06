@@ -1,4 +1,18 @@
-24751273485161818
+24759987395610156
+5mm pushbutton
+431181015816
+
+
+0
+6
+6
+5mm pushbutton2
+SW4_1437565_TEC
+
+8-1437565-0 
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64651,6 +64665,13 @@ solder jumper open
 0
 3
 3
+K3-1296S-E2
+K31296SE2
+K3-1296S-E2-2
+Switch
+0
+7
+7
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -69824,6 +69845,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM12SMTR
+PCM12SMTR_CNK
+
+PCM12SMTR 
+0
+9
+9
 PTS645SM43SMTR92LFS
 SWITCH_43SMTR92LFS
 
@@ -99574,3 +99602,10 @@ Untitled
 0
 0
 0
+keystone3000batholder
+3000_KEY
+
+3000 
+0
+3
+3
