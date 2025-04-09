@@ -57,22 +57,22 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define MSG_BIT_0_Pin GPIO_PIN_1
-#define MSG_BIT_0_GPIO_Port GPIOA
-#define MSG_BIT_1_Pin GPIO_PIN_4
-#define MSG_BIT_1_GPIO_Port GPIOA
-#define MSG_BIT_2_Pin GPIO_PIN_5
-#define MSG_BIT_2_GPIO_Port GPIOA
-#define MSG_BIT_3_Pin GPIO_PIN_6
-#define MSG_BIT_3_GPIO_Port GPIOA
-#define MSG_BIT_4_Pin GPIO_PIN_7
-#define MSG_BIT_4_GPIO_Port GPIOA
 #define MSG_BIT_7_Pin GPIO_PIN_1
-#define MSG_BIT_7_GPIO_Port GPIOB
-#define MSG_BIT_5_Pin GPIO_PIN_9
-#define MSG_BIT_5_GPIO_Port GPIOA
-#define MSG_BIT_6_Pin GPIO_PIN_10
+#define MSG_BIT_7_GPIO_Port GPIOA
+#define MSG_BIT_6_Pin GPIO_PIN_4
 #define MSG_BIT_6_GPIO_Port GPIOA
+#define MSG_BIT_5_Pin GPIO_PIN_5
+#define MSG_BIT_5_GPIO_Port GPIOA
+#define MSG_BIT_4_Pin GPIO_PIN_6
+#define MSG_BIT_4_GPIO_Port GPIOA
+#define MSG_BIT_3_Pin GPIO_PIN_7
+#define MSG_BIT_3_GPIO_Port GPIOA
+#define MSG_BIT_0_Pin GPIO_PIN_1
+#define MSG_BIT_0_GPIO_Port GPIOB
+#define MSG_BIT_2_Pin GPIO_PIN_9
+#define MSG_BIT_2_GPIO_Port GPIOA
+#define MSG_BIT_1_Pin GPIO_PIN_10
+#define MSG_BIT_1_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 

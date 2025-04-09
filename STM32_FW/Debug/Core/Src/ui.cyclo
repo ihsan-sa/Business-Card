@@ -1,0 +1,6 @@
+../Core/Src/ui.c:25:6:ui_print_message	3
+../Core/Src/ui.c:45:6:_ui_print_data	1
+../Core/Src/ui.c:57:6:_ui_print_sweep_r_to_l	1
+../Core/Src/ui.c:89:6:_ui_print_sweep_l_to_r	1
+../Core/Src/ui.c:122:6:_ui_x_sweep	1
+../Core/Src/ui.c:167:6:_ui_reset	1
