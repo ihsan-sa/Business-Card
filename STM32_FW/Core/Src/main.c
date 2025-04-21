@@ -22,6 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "use_printf.h"
+#include "input_handler.h"
+#include "user_commands.h"
 #include "ui.h"
 /* USER CODE END Includes */
 
@@ -44,6 +46,8 @@
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+char msg[256] = "ECE on top!";
+uint8_t msg_len = 11;
 
 /* USER CODE END PV */
 
@@ -95,15 +99,32 @@ int main(void) {
 	MX_USART2_UART_Init();
 	/* USER CODE BEGIN 2 */
 
+	/* Init input buffer */
+	ring_buffer_t input_buffer;
+	rbuff_init(&input_buffer);
+
+	/* Create temp UART buffer */
+	uint8_t uart_buff = '\0';
+	printf("Init complete.\r\n");
+
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1) {
 
-		char msg[12] = "ECE on top!";
+		printf("%s\r\n", msg);
+		ui_print_message(&msg, msg_len);
 
-		ui_print_message(&msg, 11);
+		HAL_UART_Receive_IT(&huart2, &uart_buff, 1);
+		if (uart_buff != '\0') {
+			HAL_UART_Transmit(&huart2, &uart_buff, 1, 100); //echo
+			while (rbuff_add_val(&input_buffer, uart_buff) == BUFF_BUSY)
+				;
+			uart_buff = '\0';
+			printf("%s\r\n", msg);
+
+		}
 
 		/* USER CODE END WHILE */
 
@@ -173,7 +194,7 @@ static void MX_USART2_UART_Init(void) {
 
 	/* USER CODE END USART2_Init 1 */
 	huart2.Instance = USART2;
-	huart2.Init.BaudRate = 1000;
+	huart2.Init.BaudRate = 115200;
 	huart2.Init.WordLength = UART_WORDLENGTH_8B;
 	huart2.Init.StopBits = UART_STOPBITS_1;
 	huart2.Init.Parity = UART_PARITY_NONE;
